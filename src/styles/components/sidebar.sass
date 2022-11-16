@@ -1,0 +1,18 @@
+@use '../variables'
+
+#sidebar
+  background-color:  variables.$bg-color
+  flex: 1 1 0 // aumenta e diminui conforme o elemento ao lado aumenta e diminui, no caso a mainContent
+  border-radius: variables.$container-border-radius
+  display: flex
+  align-items: center //centraliza os itens no meio da sidebar
+  flex-direction: column //Usa o efeito de coluna, um em baixo do outro
+  text-align: center //alinhando o texto no centro
+  position: relative 
+  padding: 3rem 0 //espacamento no topo e em baixo e 0 nas laterais 
+
+img 
+  max-width: 70% //vai ocupar 70% do meu container
+  border-radius: variables.$container-border-radius
+  position: absolute
+  top: -3rem
